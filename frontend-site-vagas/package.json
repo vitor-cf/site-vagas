@@ -1,0 +1,31 @@
+{
+  "name": "nuxt-app",
+  "private": true,
+  "scripts": {
+    "build": "nuxt build",
+    "dev": "nuxt dev",
+    "generate": "nuxt generate",
+    "preview": "nuxt preview",
+    "postinstall": "nuxt prepare"
+  },
+  "devDependencies": {
+    "autoprefixer": "^10.4.14",
+    "nuxt": "^3.3.3",
+    "postcss": "^8.4.23",
+    "tailwindcss": "^3.3.1"
+  },
+  "dependencies": {
+    "@vee-validate/zod": "^4.8.4",
+    "ejs": "^3.1.9",
+    "express": "^4.18.2",
+    "laravel-echo": "^1.15.3",
+    "nuxt-socket-io": "^3.0.13",
+    "primeicons": "^6.0.1",
+    "primevue": "^3.27.0",
+    "pusher-js": "^8.3.0",
+    "socket.io": "^4.7.2",
+    "socket.io-client": "^4.7.2",
+    "vee-validate": "^4.8.4",
+    "zod": "^3.21.4"
+  }
+}
